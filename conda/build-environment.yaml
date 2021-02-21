@@ -16,7 +16,7 @@
 # under the License.
 
 # Build environment that can be used to build tvm.
-name: tvm-build
+name: tvm
 
 # The conda channels to lookup the dependencies
 channels:
@@ -25,6 +25,7 @@ channels:
 
 # The packages to install to the environment
 dependencies:
+  - python=3.6.9
   - conda-build
   - git
   - llvmdev ==10.0.0
